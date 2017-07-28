@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "ChatWorkUrlShare",
+  "version": "1.0.0",
+  "homepage_url": "https://dimgraycat.github.io/",
+  "content_scripts": [{
+    "run_at": "document_end",
+    "matches": [
+      "https://www.chatwork.com/*",
+      "https://kcw.kddi.ne.jp/*"
+    ],
+    "js": [
+      "loader.js"
+    ]
+  }],
+  "web_accessible_resources": [
+    "js/font_awesome.js",
+    "js/url-share-button.js"
+  ],
+  "author": "dimgraycat"
+}
