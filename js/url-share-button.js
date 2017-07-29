@@ -9,11 +9,11 @@ $(function() {
             /https?.*chatwork\.com.*/,
             /https?.*[github|githubusercontent]\.com.*/,
             /https?.*facebook\.com.*/,
-            /https?.*atlassian.*/
+            /https?.*atlassian.*/,
             /https?.*amazon.*/,
             /https?.*goo\.gl.*/,
             /https?.*google\.[com|co\.jp].*/,
-            /https?.*yahoo\.[com|co\.jp].*/,
+            /https?.*yahoo\.[com|co\.jp].*/
         ];
         var ignore = false;
         $(ignoreList).each(function() {
