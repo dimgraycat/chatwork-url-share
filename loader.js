@@ -1,4 +1,4 @@
-var targets = ['js/url-share-button.js', "js/font_awesome.js"];
+var targets = ['js/font_awesome.js', 'js/url-share-button.js'];
 targets.forEach(function(js){
     var scriptElement = document.createElement('script');
     scriptElement.setAttribute('src', chrome.extension.getURL(js));
